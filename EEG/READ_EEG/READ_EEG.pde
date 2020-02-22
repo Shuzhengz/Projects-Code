@@ -1,3 +1,6 @@
+//IMPORTANT
+//ONLY WORKS WITH PROCESSING 2.2.1
+
 import processing.serial.*;
 import ddf.minim.*;
 import ddf.minim.signals.*;
