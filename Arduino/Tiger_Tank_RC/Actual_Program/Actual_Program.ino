@@ -6,6 +6,7 @@ const int lb = 3;
 const int rf = 4;
 const int rb = 5;
 String val = "";
+String *va;
 
 void setup() {
   Serial.begin(9600);
@@ -28,6 +29,7 @@ void loop() {
     while(Serial.available()>0)
     {
       val += char(Serial.read());
+      va = &val;
       delay(10);
     }
     while(val == "start")
