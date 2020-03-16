@@ -589,5 +589,5 @@ void setup(){
 }
 
 void loop(){
-  captureImg(320, 240);
+  captureImg(640, 480);
 }
