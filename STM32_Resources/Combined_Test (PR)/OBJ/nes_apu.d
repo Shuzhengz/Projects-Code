@@ -1,0 +1,9 @@
+..\obj\nes_apu.o: ..\NES\nes_apu.c
+..\obj\nes_apu.o: ..\NES\nes_apu.h
+..\obj\nes_apu.o: ..\NES\nes_main.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\sys.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\nes_apu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\nes_apu.o: ..\MALLOC\malloc.h
